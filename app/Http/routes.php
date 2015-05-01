@@ -19,3 +19,8 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+Route::controllers([
+	'lists'	=> 'ListsController',
+	'tasks'	=> 'TasksController',
+]);
